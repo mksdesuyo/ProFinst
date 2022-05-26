@@ -6,7 +6,7 @@
 </div>
 
 # CPSG-71 w/ Teams
-[mksdesuyo](https://github.com/mksdesuyo) `Rizqi Muhammad Khatami Sandi` | [Bri1ianto](https://github.com/Bri1ianto) `Muhammad Agum Brilianto` | [waiting](waiting) `waiting` | [waiting](waiting) `waiting`.
+[mksdesuyo](https://github.com/mksdesuyo) `Rizqi Muhammad Khatami Sandi` | [Bri1ianto](https://github.com/Bri1ianto) `Muhammad Agum Brilianto` | [farhanrafif](https://github.com/farhanrafif) `Farhan Ar Rafif Purba` | [faridalfajr20](https://github.com/faridalfajr20) `Farid Alfajr Muhlis`.
 
 # Idea
 Atur kegiatan anda dan efisienkan setiap waktu anda. Tingkatkan produktivitasmu dengan Profinst!
