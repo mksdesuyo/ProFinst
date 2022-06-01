@@ -25,3 +25,13 @@
         padding: 12px 0;
     }
 }
+
+@media screen and (max-width: 620px) {
+    .hero {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .hero__inner-left img {
+        width: 250px;
+    }
+}
