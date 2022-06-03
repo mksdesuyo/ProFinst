@@ -3,6 +3,7 @@ import '../styles/main.css';
 import '../styles/responsive.css';
 import './views/components/appbar-element';
 import './views/components/hero-element';
+import './views/components/article-element';
 import App from './views/app';
 
 const app = new App({
@@ -12,9 +13,5 @@ const app = new App({
 });
 
 window.addEventListener('hashchange', () => {
-  app.renderPage();
-});
-
-window.addEventListener('load', () => {
   app.renderPage();
 });
