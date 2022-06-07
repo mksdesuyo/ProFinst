@@ -23,8 +23,10 @@ class AppbarElement extends HTMLElement {
             <nav id="navigationDrawer" class="app-bar__navigation">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="#/login">Login</a></li>
                     <li><a href="#/about">About Us</a></li>
+                    <a hidden id="user-name"></a>
+                    <a class="profinst" id="login" href="#/login">Log In</a>
+                    <a class="profinst" hidden id="logout">Log Out</a>
                 </ul>
             </nav>
         </div>`;
