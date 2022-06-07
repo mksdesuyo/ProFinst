@@ -35,7 +35,7 @@ const uiConfig = {
   },
   // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
   signInFlow: 'popup',
-  signInSuccessUrl: '#/',
+  signInSuccessUrl: '/',
   signInOptions: [
     // Leave the lines as is for the providers you want to offer your users.
     firebase.auth.EmailAuthProvider.PROVIDER_ID,
@@ -69,15 +69,11 @@ const LogoutInitiator = {
 };
 
 // const userPicElement = document.getElementById('user-pic');
-const userNameElement = document.getElementById('username');
+const userNameElement = document.getElementById('user-name');
 const signInButtonElement = document.getElementById('login');
 const signOutButtonElement = document.getElementById('logout');
 // const signInSnackbarElement = document.getElementById('must-signin-snackbar');
 
-// Returns the signed-in user's profile Pic URL.
-function getProfilePicUrl() {
-  return getAuth().currentUser.photoURL || '/images/profile_placeholder.png';
-}
 
 // Returns the signed-in user's display name.
 function getUserName() {
@@ -126,6 +122,4 @@ function isUserSignedIn() {
   return !!getAuth().currentUser;
 }
 
-initFirebaseAuth();
-
-export {signinUI, LogoutInitiator};
+export {signinUI, LogoutInitiator, initFirebaseAuth};
