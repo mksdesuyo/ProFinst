@@ -4,6 +4,7 @@ import '../styles/responsive.css';
 import './views/components/appbar-element';
 import './views/components/hero-element';
 import './views/components/article-element';
+import './views/components/calendar-element';
 import App from './views/app';
 import './utils/auth';
 import {initFirebaseAuth} from './utils/auth';
