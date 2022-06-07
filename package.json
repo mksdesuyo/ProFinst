@@ -36,6 +36,7 @@
   "dependencies": {
     "firebase": "^9.8.2",
     "firebaseui": "^6.0.1",
+    "js-year-calendar": "^2.0.0",
     "regenerator-runtime": "^0.13.9"
   }
 }
