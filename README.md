@@ -11,7 +11,7 @@
 # Idea
 Atur kegiatan anda dan efisienkan setiap waktu anda. Tingkatkan produktivitasmu dengan Profinst!
 
-#Order
+# Order
 - Install Node Packages menggunakan command `npm install` pada terminal.
 - Jalankan command `npm run start-dev` pada terminal untuk menggunakan project dalam mode development.
 - Jalankan command `npm run build` pada terminal untuk membuat bundle.
