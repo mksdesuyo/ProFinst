@@ -5,6 +5,7 @@ import './views/components/appbar-element';
 import './views/components/hero-element';
 import './views/components/article-element';
 import './views/components/calendar-element';
+import './views/components/footer-element';
 import App from './views/app';
 import './utils/auth';
 import {initFirebaseAuth} from './utils/auth';
@@ -23,10 +24,20 @@ window.addEventListener('hashchange', () => {
   app.renderPage();
 });
 
-window.addEventListener('hashchange', () => {
+window.addEventListener('load', () => {
   app.renderPage();
 });
 
-window.addEventListener('load', () => {
-  app.renderPage();
+const anchorSelector = 'a[href^="#"]';
+const anchorList = document.querySelectorAll(anchorSelector);
+
+anchorList.forEach((link) => {
+  link.onclick = function(event) {
+    event.preventDefault();
+
+    const destination = document.querySelector(this.hash);
+    destination.scrollIntoView({
+      behavior: 'smooth',
+    });
+  };
 });

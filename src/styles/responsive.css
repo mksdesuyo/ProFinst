@@ -24,11 +24,52 @@
         margin: 0;
         padding: 12px 0;
     }
+
+    .profinst {
+        background: #365470;
+        padding: 10px 25px;
+        margin-left: 30px;
+        margin-right: 15px;
+        border-radius: 50px;
+        color: #fff;
+    }
+
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin: 32px 0;
+    }
+    
+    .arrow {
+        width: 50px;
+        background-color: #8ec1de;
+        border: 0;
+        border-radius: 24px;
+        box-shadow: 8px 6px 4px 0 rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin: 32px 0;
+    }
+
+    .arrow {
+        width: 50px;
+        background-color: #8ec1de;
+        border: 0;
+        border-radius: 24px;
+        box-shadow: 8px 6px 4px 0 rgba(0, 0, 0, 0.4);
+    }
 }
 
 @media screen and (max-width: 620px) {
     .hero {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     
     .hero__inner-left img {

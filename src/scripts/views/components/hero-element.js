@@ -22,7 +22,7 @@ class HeroElement extends HTMLElement {
                 <p>
                     Manajemen kegiatan kamu dan efisienkan setiap waktu kamu. Ayo tingkatkan produktivitasmu dengan Profinst!
                 </p>
-                <button class="btn-setnow" >SET NOW</button>
+                <button class="btn-setnow"><a href="#calendar">SET NOW</a></button>
             </div>
         </div>`;
   }

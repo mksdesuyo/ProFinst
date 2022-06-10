@@ -13,7 +13,7 @@ class CalendarElement extends HTMLElement {
 
   render() {
     this.innerHTML = `
-        <div class="calendar">
+        <div class="calendar" id="calendar">
           <h2 class="calendar__heading">Set Your Productivities!</h2>
         </div>
         `;
