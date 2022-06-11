@@ -268,9 +268,7 @@ main {
 }
 
 table.month td:first-child,
-table.month td:last-child,
-table.month thead tr:nth-child(2) th:first-child,
-table.month thead tr:nth-child(2) th:last-child
+table.month thead tr:nth-child(2) th:first-child
 {
     color: red;
 }
@@ -278,6 +276,11 @@ table.month thead tr:nth-child(2) th:last-child
 .calendar table.month td.day .day-content
 {
     padding: 6px 8px;
+}
+
+.calendar table.month th.day-header
+{
+    font-weight: 700;
 }
 
 .calendar table.month td.day .day-header
@@ -290,8 +293,8 @@ table.month thead tr:nth-child(2) th:last-child
 .month tr td
 {
     font-size: 0.9em;
-    font-weight: 400;
-    color: #777;
+    font-weight: 600;
+    color: rgb(29, 29, 29);
 }
 
 table.month td.day .day-content:hover
