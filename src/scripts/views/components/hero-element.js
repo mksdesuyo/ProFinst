@@ -15,7 +15,7 @@ class HeroElement extends HTMLElement {
     this.innerHTML = `
         <div class="hero">
             <div class="hero__inner-left">
-                <img src="./images/logo.png">
+                <img src="./images/logo.png" alt="ProFinst Logo Satu">
             </div>
             <div class="hero__inner-right">
                 <h1>PROFINST</h1>

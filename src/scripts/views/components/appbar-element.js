@@ -15,10 +15,10 @@ class AppbarElement extends HTMLElement {
     this.innerHTML = `
         <div class="app-bar" id="app-bar">
             <div class="app-bar__menu">
-                <button id="hamburgerButton" aria-label="Menu Button">☰</button>
+                <button class="hamburgerButton" id="hamburgerButton" aria-label="Menu Button">☰</button>
             </div>
             <div class="app-bar__brand">
-                <img src="images/logo2.png" alt="ProFinst">
+                <img src="images/logo2.png" alt="ProFinst Logo Dua">
             </div>
             <nav id="navigationDrawer" class="app-bar__navigation">
                 <ul>

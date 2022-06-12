@@ -28,16 +28,17 @@ window.addEventListener('load', () => {
   app.renderPage();
 });
 
-const anchorSelector = 'a[href^="#"]';
-const anchorList = document.querySelectorAll(anchorSelector);
+const darkMode = document.querySelector('.theme-toggle-button');
+const darkAppBar = document.querySelector('.app-bar');
+const darkNavBar = document.querySelector('.app-bar__navigation');
+const darkHamButton = document.querySelector('.hamburgerButton');
+const darkFooter = document.querySelector('footer');
 
-anchorList.forEach((link) => {
-  link.onclick = function(event) {
-    event.preventDefault();
-
-    const destination = document.querySelector(this.hash);
-    destination.scrollIntoView({
-      behavior: 'smooth',
-    });
-  };
+darkMode.addEventListener('click', function handleClick() {
+  document.body.classList.toggle('dark');
+  darkMode.classList.toggle('dark');
+  darkAppBar.classList.toggle('dark');
+  darkNavBar.classList.toggle('dark');
+  darkHamButton.classList.toggle('dark');
+  darkFooter.classList.toggle('dark');
 });
