@@ -180,6 +180,28 @@ main {
     border-bottom: dotted #229ab8 2px;
 }
 
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    background-color: #365470;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .skip-link:focus {
+      top: 0;
+      transition: all 0.5s;
+  }
+
+  .skip-link:hover {
+    background-color: #365470;
+    color: black;
+}
+
 /*
   Articles
 */
