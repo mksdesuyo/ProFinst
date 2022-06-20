@@ -17,47 +17,38 @@ class ArticleElement extends HTMLElement {
           <h2 class="content__heading">Boost Your Activities!</h2>
           <div id="articles" class="articles">
             <div class="article-item">
-              <div class="article-item__header">
-                <img src="" alt="Article" class="article-item__header-poster">
-              </div>
               <div class="article-item__content">
-                <h3 class="article__title"><a target="__blank" rel="noreferrer" href="https://hbr.org/2022/05/resisting-the-pressure-to-overwork">Understand That Overwork Is Not Necessary For Success</a></h3>
-                <h4>Source: hbr.org</h4>
+                <h3 class="article__title">Becoming Productive</h3>
+                <h4>Author: Rizqi MKS</h4>
                 <p>
-                  If you buy into that thinking, even just a tiny bit, you won’t be able to resist triggers, like others telling you about their overworking. This social pressure will activate your anxiety, with all the attendant emotional and physical reactions.
-                  Here’s an example. Another author recently told me how many podcasts interviews they’d done to support their book launch. It was far more than me, and this sent me into a spiral of worry. Even hours later, my heart rate remained elevated and my mind kept drifting back to it.
-                  To avoid the temptation to keep up with vocal overworkers like that author you need to radically reject the idea that such behavior is required or even beneficial. In my case, I literally had to say to myself, “That person believes overworking is necessary for success. I don’t believe that.”
-                  If a situation continues to trigger you, consider using even more compassionate self-talk. For example, “I feel anxious that if I don’t buy into their assumptions, I’m going to fail. My success is important to me, so that’s scary. But I’m going to remind myself about how I can do my best work through methods that don’t involve overworking.”
+                Productive is not always about hard working, but sometimes it is about managing. You need to manage your time, your what to do, your hobby, and so on, in order to achieve the productiveness of you.
                 </p>
               </div>
             </div>
             <div class="article-item">
-              <div class="article-item__header">
-                <img src="" alt="Article" class="article-item__header-poster">
-              </div>
               <div class="article-item__content">
-                <h3 class="article__title"><a href="https://hbr.org/2022/05/resisting-the-pressure-to-overwork">Understand That Overwork Is Not Necessary For Success</a></h3>
-                <h4>Source: hbr.org</h4>
+                <h3 class="article__title">Be Yourself, Be Not</h3>
+                <h4>Author: Rizqi MKS</h4>
                 <p>
-                  If you buy into that thinking, even just a tiny bit, you won’t be able to resist triggers, like others telling you about their overworking. This social pressure will activate your anxiety, with all the attendant emotional and physical reactions.
-                  Here’s an example. Another author recently told me how many podcasts interviews they’d done to support their book launch. It was far more than me, and this sent me into a spiral of worry. Even hours later, my heart rate remained elevated and my mind kept drifting back to it.
-                  To avoid the temptation to keep up with vocal overworkers like that author you need to radically reject the idea that such behavior is required or even beneficial. In my case, I literally had to say to myself, “That person believes overworking is necessary for success. I don’t believe that.”
-                  If a situation continues to trigger you, consider using even more compassionate self-talk. For example, “I feel anxious that if I don’t buy into their assumptions, I’m going to fail. My success is important to me, so that’s scary. But I’m going to remind myself about how I can do my best work through methods that don’t involve overworking.”
+                Sometimes people get confused on how to achieve their productiveness. Most common reason is that people always see others people work, and not themselves. That always lead to an ignorant emotion where you feel like what youre doing is just does not make any changes on your life. So be yourself, but not be your bad-self.
                 </p>
               </div>
             </div>
             <div class="article-item">
-              <div class="article-item__header">
-                <img src="" alt="Article" class="article-item__header-poster">
-              </div>
               <div class="article-item__content">
-                <h3 class="article__title"><a href="https://hbr.org/2022/05/resisting-the-pressure-to-overwork">Understand That Overwork Is Not Necessary For Success</a></h3>
-                <h4>Source: hbr.org</h4>
+                <h3 class="article__title">Take A Break!</h3>
+                <h4>Author: Rizqi MKS</h4>
                 <p>
-                  If you buy into that thinking, even just a tiny bit, you won’t be able to resist triggers, like others telling you about their overworking. This social pressure will activate your anxiety, with all the attendant emotional and physical reactions.
-                  Here’s an example. Another author recently told me how many podcasts interviews they’d done to support their book launch. It was far more than me, and this sent me into a spiral of worry. Even hours later, my heart rate remained elevated and my mind kept drifting back to it.
-                  To avoid the temptation to keep up with vocal overworkers like that author you need to radically reject the idea that such behavior is required or even beneficial. In my case, I literally had to say to myself, “That person believes overworking is necessary for success. I don’t believe that.”
-                  If a situation continues to trigger you, consider using even more compassionate self-talk. For example, “I feel anxious that if I don’t buy into their assumptions, I’m going to fail. My success is important to me, so that’s scary. But I’m going to remind myself about how I can do my best work through methods that don’t involve overworking.”
+                Take a break when you already meet your schedule. It is also important to note that working makes you stress, whether it is a little or more. So don't be afraid to take a break. That will help you eventually to achieve your productivity as well.
+                </p>
+              </div>
+            </div>
+            <div class="article-item">
+              <div class="article-item__content">
+                <h3 class="article__title">Do Not Overdo!</h3>
+                <h4>Author: Rizqi MKS</h4>
+                <p>
+                As i have mention in the earlier post, do not overdo yourself to achieve productiveness. Given by the data, you just need to do your work on your own pace. That way you can also achieve productivity and good resolution on feeling also.
                 </p>
               </div>
             </div>
