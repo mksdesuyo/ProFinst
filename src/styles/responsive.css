@@ -77,3 +77,21 @@
         width: 250px;
     }
 }
+
+@media (max-width: 720px){
+    .calendar .calendar-header .year-neighbor{
+        position: fixed;
+    }
+}
+
+@media (max-width: 991px) {
+  .calendar .calendar-header .year-neighbor2 {
+    display: none;
+    opacity: 0.2;
+  }
+
+    .calendar .calendar-header .year-neighbor {
+    opacity: 0.4;
+    display: block;
+    }
+}
