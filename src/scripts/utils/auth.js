@@ -26,6 +26,8 @@ const uiConfig = {
       // User successfully signed in.
       // Return type determines whether we continue the redirect automatically
       // or whether we leave that to developer to handle.
+      window.location.hash = '/about';
+      swal('Login', 'Successfully!', 'success');
       return true;
     },
     uiShown() {
@@ -64,6 +66,7 @@ const LogoutInitiator = {
     firebase.auth().signOut()
         .then(() => {
           console.log('Signed Out');
+          swal('Logout', 'Successfully!', 'success');
         });
   },
 };
