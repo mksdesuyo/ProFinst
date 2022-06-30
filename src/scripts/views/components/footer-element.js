@@ -5,7 +5,7 @@ class FooterElement extends HTMLElement {
 
   render() {
     this.innerHTML = `
-        <p>&copy; 2022 ProFinst | CPSG-71</p>
+        <p>&copy; 2022 CPSG-71 | <a href="https://github.com/mksdesuyo/ProFinst" target="_blank" rel="noreferrer noopener">ProFinst</a></p>
         `;
   }
 }
