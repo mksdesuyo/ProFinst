@@ -6,6 +6,7 @@ import './views/components/hero-element';
 import './views/components/article-element';
 import './views/components/calendar-element';
 import './views/components/footer-element';
+import '../scripts/utils/ajax';
 import App from './views/app';
 import './utils/auth';
 import {initFirebaseAuth} from './utils/auth';
