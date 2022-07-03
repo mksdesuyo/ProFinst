@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start-dev": "webpack-dev-server --config webpack.dev.js",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "start": "node src/server.js"
   },
   "keywords": [
     "Web",
@@ -34,6 +35,7 @@
     "whatwg-fetch": "^3.6.2"
   },
   "dependencies": {
+    "express": "^4.18.1",
     "firebase": "^9.8.2",
     "firebaseui": "^6.0.1",
     "js-year-calendar": "^2.0.0",
