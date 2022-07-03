@@ -1,7 +1,7 @@
 const dates = document.querySelectorAll('.day-content');
 const seeYear = document
-  .querySelector('table')
-  .querySelectorAll('.year-title')[2];
+    .querySelector('table')
+    .querySelectorAll('.year-title')[2];
 
 for (const date of dates) {
   date.addEventListener('click', (event) => {
@@ -9,13 +9,13 @@ for (const date of dates) {
 
     const month =
       date.parentElement.parentElement.parentElement.parentElement.querySelector(
-        '.month-title'
+          '.month-title',
       );
     const year =
       date.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement
-        .querySelector('table')
-        .querySelectorAll('.year-title')[2];
+          .querySelector('table')
+          .querySelectorAll('.year-title')[2];
 
-    console.log(day.innerText, month.innerText, seeYear.innerText);
+    console.log(day.innerText, month.innerText, year.innerText, seeYear.innerText);
   });
 }
